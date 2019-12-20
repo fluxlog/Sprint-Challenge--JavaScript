@@ -24,19 +24,31 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 ## Self-Study Questions
 
-Demonstrate your understanding of this week's concepts by answering the following free-form questions.
-
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
-
 1. Describe the biggest difference between `.forEach` & `.map`.
+
+The forEach() iterates through the elements in the array. It calls a provided callback function once for each element in the array in ascending order.The map() method creates a new array with the results of calling a provided function on every element in the calling array. map() calls a provided callback function once for each element in an array, in order, and constructs a new array from the results.
 
 2. What is the difference between a function and a method?
 
+A function is a piece of code that is called by name. It can be passed data to operate on (i.e. the parameters) and can optionally return data (the return value). All data that is passed to a function is explicitly passed.A method is implicitly passed the object on which it was called. A method is able to operate on data that is contained within the class (remembering that an object is an instance of a class - the class is the definition, the object is an instance of that data).
+
+
 3. What is closure?
+
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state
+closures are created every time a function is created, at function creation time.
+
 
 4. Describe the four rules of the 'this' keyword.
 
+Is the function called by new?
+Is the function called by call(), apply(), or bind()?
+Is the function called as a method, ie: obj.func()?
+Is the function called in the global scope?
+
 5. Why do we need super() in an extended class?
+
+The super keyword is used to access and call functions on an object's parent.By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods
 
 ## Project Set up
 
